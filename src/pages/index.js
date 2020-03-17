@@ -1,13 +1,14 @@
 import React from 'react';
 
-import Footer from '../components/footer';
-import Header from '../components/header'
+import Layout from '../components/layout'
 
 const IndexPage = () => {
     return (
         <div>
-            <Header />
-            <Footer />
+            <Layout>
+                <h1>Helllo</h1>
+                <h2>This is my home page</h2>
+            </Layout>
         </div>
     )
 }

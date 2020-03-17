@@ -1,15 +1,14 @@
-import React from 'react';
+import React from "react"
 
-import Footer from '../components/footer';
-import Header from '../components/header';
+import Layout from "../components/layout"
 
 const BlogPage = () => (
-    <div>
-        <Header />
-        <h1>My Blog</h1>
-        <p>Posts will show up here</p>
-        <Footer />
-    </div>
+  <div>
+    <Layout>
+      <h1>My Blog</h1>
+      <p>Posts will show up here</p>
+    </Layout>
+  </div>
 )
 
-export default BlogPage;
+export default BlogPage
