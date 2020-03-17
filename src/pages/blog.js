@@ -1,8 +1,9 @@
 import React from 'react';
+
 import Footer from '../components/footer';
 import Header from '../components/header';
 
-const BlogPost = () => (
+const BlogPage = () => (
     <div>
         <Header />
         <h1>My Blog</h1>
@@ -11,4 +12,4 @@ const BlogPost = () => (
     </div>
 )
 
-export default BlogPost;
+export default BlogPage;
