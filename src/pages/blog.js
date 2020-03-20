@@ -13,14 +13,11 @@ const BlogPage = () => {
               title
               date
             }
-            html
-            excerpt
           }
         }
       }
     }
   `)
-    console.log(data)
   return (
     <div>
       <Layout>

@@ -1,5 +1,5 @@
 ---
-title: "The great gatsby framework"
+title: "The Great Gatsby framework"
 date: "2020-4-4"
 ---
 
