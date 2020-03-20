@@ -10,6 +10,13 @@ module.exports = {
     author: "Matt Cooooook",
   },
   plugins: [
+    {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: process.env.CONTENFUL_SPACE_ID,
+        accessToken: process.env.CONTENFUL_ACCESS_TOKEN
+      }
+    },
     "gatsby-plugin-sass",
     {
       resolve: `gatsby-source-filesystem`,
