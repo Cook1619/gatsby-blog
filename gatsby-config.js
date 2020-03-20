@@ -6,17 +6,18 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Matt\s Coding Blog',
-    author: 'Matt Cooooook'
+    title: "Matts Coding Blog",
+    author: "Matt Cooooook",
   },
   plugins: [
-    'gatsby-plugin-sass',
+    "gatsby-plugin-sass",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,
         path: `${__dirname}/src/`,
       },
-    }
-  ]
+    },
+    "gatsby-transformer-remark",
+  ],
 }
